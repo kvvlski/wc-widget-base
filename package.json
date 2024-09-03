@@ -1,0 +1,33 @@
+{
+	"name": "react-starter-template",
+	"version": "0.1.1",
+	"type": "module",
+	"scripts": {
+		"api": "tsx src/server/index.ts",
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@tanstack/query-core": ">=5.0.0",
+		"@wagmi/core": "<2",
+		"@web3modal/wagmi": "3.5.7",
+		"axios": "^1.7.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"viem": "^1.21.4",
+		"wagmi": "^1.4.13"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.21",
+		"@types/node": "^22.5.1",
+		"@types/react": "^18.3.4",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react": "^4.3.1",
+		"tsx": "^4.19.0",
+		"typescript": "^5.5.4",
+		"vite": "^5.4.2"
+	}
+}
